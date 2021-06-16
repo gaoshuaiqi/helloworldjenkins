@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash -il
 hello: main.o
 	cc -o hello main.o
 main.o : main.c
