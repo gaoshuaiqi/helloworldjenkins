@@ -1,6 +1,6 @@
-hello: helloworld.o
-	cc -o hello helloworld.o
-helloworld.o : helloworld.c
-	cc -c helloworld.c
+hello: main.o
+	cc -o hello main.o
+main.o : main.c
+	cc -c main.cpp
 clean:
-	rm hello helloworld.o
+	rm hello main.o
